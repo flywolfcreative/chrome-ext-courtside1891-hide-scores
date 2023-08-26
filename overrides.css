@@ -8,7 +8,7 @@
 	color: hsla(0,0%,100%,.6) !important;
 }
 
-.is-completed .game-summary__team-score {
+.is-completed .game-summary__team-score, .game-summary__team-score {
 	opacity: 0.6 !important;
 	filter: blur(18px) !important;
 }
