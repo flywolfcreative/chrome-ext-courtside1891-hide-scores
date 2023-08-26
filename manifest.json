@@ -1,0 +1,22 @@
+{
+	"name": "Hide Basketball scores in Courtside1981",
+	"version": "1.0.0",
+	"description": "Blurs out scores for game replays on Courtside1891",
+	"manifest_version": 3,
+	"author": "Glenn Mason",
+	"action": {
+		"default_title": "Hide scores in Courtside 1891"
+	},
+	"content_scripts": [
+    {
+      "matches": ["https://www.courtside1891.basketball/*"],
+      "css" : ["overrides.css"]
+    }
+	],
+	"icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}

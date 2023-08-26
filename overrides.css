@@ -1,0 +1,29 @@
+.game-card-v2__team-score {
+	filter: blur(18px);
+	font-weight: 400 !important;
+	color: hsla(0,0%,100%,.6) !important;
+}
+.game-card-v2__team-name {
+	font-weight: 400 !important;
+	color: hsla(0,0%,100%,.6) !important;
+}
+
+.is-completed .game-summary__team-score {
+	opacity: 0.6 !important;
+	filter: blur(18px) !important;
+}
+
+.is-completed .game-summary__team-name {
+	opacity: 0.6 !important;
+}
+
+.score-breakdown__value {
+	filter: blur(18px) !important;
+}
+.score-breakdown .is-bold {
+	font-weight: 400 !important;
+}
+
+.waf-boxscore .waf-body * {
+	filter: blur(16px) !important;
+}
